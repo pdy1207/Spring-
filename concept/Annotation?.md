@@ -1,4 +1,4 @@
-# Spring 지금까지 배운 Annotation(@) 정리
+# Spring Annotation(@) 정리
 
       Annotation 이란?
       사전적으로는 "주석"이라는 의미를 가지고 있으며, 
