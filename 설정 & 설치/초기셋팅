@@ -1,0 +1,38 @@
+### elipse
+- 우선적으로 elipse Java AND Web 을 다운받는다 
+- 실행할때 파일 경로를 잘 정하기.
+
+![1](https://user-images.githubusercontent.com/110442250/188053290-9372958c-cd69-4cdb-815f-0e94e13a1f17.jpg)
+
+### elipse를 설치했으면 spring 도 다운을 받자!
+- [스프링 사이트 접속](https://start.spring.io/)
+
+- Project Language Java 잘 확인하고 선택 후 설치를 해야한다.
+
+![2](https://user-images.githubusercontent.com/110442250/188054364-b89abe03-fc9d-47ef-8375-1005b8462bba.jpg)
+
+- Spring web 선택 후 generate 선택하여 zip 파일을 다운받자
+
+![3](https://user-images.githubusercontent.com/110442250/188054702-59a2df69-208f-4c2d-9a23-a10378b8bc0f.jpg)
+
+### 파일 생성 후 zip 파일을 여기에 풀기 선택 !
+
+![4](https://user-images.githubusercontent.com/110442250/188054813-b29367f0-1c7e-4bfd-b176-27b92e420fa7.jpg)
+
+### import 클릭 후 Gradle 코끼리 모양 클릭~! 
+
+![5](https://user-images.githubusercontent.com/110442250/188054942-04c4bba0-ebfe-4340-bcd4-8a1f6730c1cb.jpg)
+
+![6](https://user-images.githubusercontent.com/110442250/188054951-4aa0c5a9-6882-434c-9328-8339571f5ec5.jpg)
+
+### 여기 까지 되야함!! 오류가 나거나 그럴 경우 알집 푼 폴더안에 있던 .metadata 삭제 후 다시 켠 다음 import 해보자
+
+### 마무리 최종 적으로 TesT !!! 
+
+![7](https://user-images.githubusercontent.com/110442250/188055117-56719414-e82a-47c3-9369-4ee1138d95ea.jpg)
+
+![8](https://user-images.githubusercontent.com/110442250/188055120-74e0a3bc-1925-47dc-9299-1108ca43ba63.jpg)
+
+### Web 페이지에 locallhost:8080 
+
+![9](https://user-images.githubusercontent.com/110442250/188055125-3a595a8e-91bb-4adf-aa47-c62b2d7b0258.jpg)
