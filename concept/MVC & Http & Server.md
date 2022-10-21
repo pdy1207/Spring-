@@ -29,34 +29,35 @@
     
 ### !HTTP method!
 
-    GET : SELECT
-    POST : INSERT
-    PATCH : UPDATE
-    DELETE : DELETE 
+  `GET` : SELECT
+  `POST` : INSERT
+  `PATCH` : UPDATE
+  `DELETE` : DELETE 
 
 ### http 오류
 
     HTTP method! (시간날때 구글링 해보기)
     http 메소드가 다르면 url경로 중복 가능
    
-    404 : 페이지를 찾을 수 없음 90% 오타
+ `404` : 페이지를 찾을 수 없음 90% 오타
     ex) 경로 (URL)을 잘못 씀
           잘못된 경로
-    ex) Controller에서 URL 정의했는데
+ ex) Controller에서 URL 정의했는데
 	    /emp/job
 	프론트에서 ajax로 요청할 때 url에 
 	    /emp/jop???? 오타!!!!  
         
-    405 : http 메소드 (get, post, delete, patch) 매칭 실패
+ `405` : http 메소드 (get, post, delete, patch) 매칭 실패
     ex ) Controller에 get이라고 만들었는데, 프론트에서 post라고 함.
     오류 뜨면 type 먼저!!
     
-    500 : Java에서 에러(SQL문법 오타, 자바에서 문법 오류..) / 개발자 실수 (프로그래밍 오류)
+ `500` : Java에서 에러(SQL문법 오타, 자바에서 문법 오류..) 
+    / 개발자 실수 (프로그래밍 오류)
     
-    401 : 권한 없음
-    (권한 없어서 해당 URL 접속 불가능)
+ `401` : 권한 없음
+ (권한 없어서 해당 URL 접속 불가능)
     
-    200 : !!!요청 성공!!!
+ `200` : !!!요청 성공!!!
  
     
 ### 서버 (Server)
