@@ -7,6 +7,12 @@
       코드에 정보를 추가하는 정형화된 방법이다.
       어노테이션을 사용하면 코드가 깔끔해지고 재사용이 가능하다.
 
+# Spring 
+ - `@CrossOrigin` : 누구나 자원(소스)를 요청할 수 있게 권한 해제
+ - `@Autowired` : new 자동생성 (Spring 이 클래스를 관리해준다.)    
+ - 프레임워크 (Spring boot) 가 클래스를 관리해주는 기술을 Dependency Injection(DI)
+ - `Service` : 비즈니스 계층 (고객 요구사항) 여기서 구현하겠다
+
 # 오버로딩 & 오버라이딩 정리
  - `오버로딩(Overloading)`
    - 동일한 이름의 메소드 작성가능
@@ -24,8 +30,8 @@ Srping Boot를 자동으로 실행시켜주는 어노테이션
 이 Annotation을 사용할 시, 스프링이 자동적으로 값을 할당한다.
 
  -`@Controller`</br>
-Spring MVC의 Controller로 사용되는 클래스 선언을 단순화 시켜주는 어노테이션</br>
- -- 여기서 MVC 는? M(Model == Mapper&Service)  V(View) C(Controller) 
+      Spring MVC의 Controller로 사용되는 클래스 선언을 단순화 시켜주는 어노테이션</br>
+       -- 여기서 MVC 는? M(Model == Mapper&Service)  V(View) C(Controller) 
 
  - `@Service`</br>
 비지니스 로직이 들어가는 Service로 사용되는 클래스임을 명시하는 어노테이션
