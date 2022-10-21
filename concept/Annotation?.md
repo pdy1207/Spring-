@@ -48,6 +48,21 @@ Spring MVC의 Controller로 사용되는 클래스 선언을 단순화 시켜
 ### URL EX 이러한것들이 이제 쿼리스트링으로 해야한다.
 ![1](https://user-images.githubusercontent.com/110442250/193729831-73c2db54-1815-4c1b-9edd-1596e5afccd7.jpg)
 
+    사이트 중 ? : 쿼리 스트링 
+    사이트 내에서 값을 입력받겠다 라는 뜻
+    @PathVariable처럼 
+    url에 값을 넘겨주는 방법 중 하나. 
+
+    url에 값을 넘겨주는 방법
+    1. path ex) /emp/{empno} 값을 하나 넘겨줄때 즉 길어질땐 비추
+    2. ? / emp?empno=3 (쿼리스트링) 길어질땐 이 방법 선호
+
+    url(controller)
+
+    값을 하나만 넘길 때 path 사용 
+    여러 값을 넘길 때 queryString사용
+
+
 
 
  ### 다 POST로 받아도 된다. 그렇지만........이런식으로는 하지마세요.
