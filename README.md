@@ -1,9 +1,7 @@
-![e4b6e693f249e51e3c28fd43576d358b-2846060-1601913615709-16x9-1-480x320-center-middle](https://user-images.githubusercontent.com/110442250/197196816-409d1aa6-8cd8-4cea-a097-a35eb96ff57f.jpg)
-
 ## Spring ?
 
-    Java 애플리케이션 프레임워크
-    Java로 다양한 어플리케이션을 만들기 위한 틀
+ - Java 애플리케이션 프레임워크
+ - Java로 다양한 어플리케이션을 만들기 위한 틀
     
 ## 시작하기 전에 이거는 필수로 알고가자!!
 
@@ -23,8 +21,8 @@
 
 ## 프레임워크와 라이브러리 차이
 
-    라이브러리는 완성된 기능을 가져다 개발하는 것.
-    프레임워크는 완성된 기능에서 추가적으로 개발하는 것.
+  - 라이브러리는 완성된 기능을 가져다 개발하는 것.
+  - 프레임워크는 완성된 기능에서 추가적으로 개발하는 것.
 
 ## 우리가 스프링을 공부하는 이유
 
@@ -73,20 +71,20 @@
     데이터베이스도 필요하고, 고객한테 보여 줄 화면도 필요하다.
     Spring과 같이 사용하는 소프트웨어를 하나 씩 알아보자.
 
-1. 데이터베이스 연결과 데이터 생성,호출,저장,삭제를 담당하는 ORM!
-   - MyBatis, JPA
-2. 필요한 기능을 쉽게 다운로드받을 수 있게 도와주고 배포를 담당하는 빌드관리도구(Build Tool)!
-   - Gradle, Maven
-3. 화면을 담당하는 템플릿 엔진!
-   - JSP, Thymeleaf
-4. 속성 정의를 담당하는 속성 파일!
-   - yaml, properties
-5. 서버를 담당하는 Tomcat!
-   - Spring boot를 한다면 설치할 필요없다.
-6. 그 외 Docker, Graphql 등
+ -  데이터베이스 연결과 데이터 생성,호출,저장,삭제를 담당하는 ORM!
+    - MyBatis, JPA
+ -  필요한 기능을 쉽게 다운로드받을 수 있게 도와주고 배포를 담당하는 빌드관리도구(Build Tool)!
+    - Gradle, Maven
+ -  화면을 담당하는 템플릿 엔진!
+    - JSP, Thymeleaf
+ -  속성 정의를 담당하는 속성 파일!
+    - yaml, properties
+ -  서버를 담당하는 Tomcat!
+    - Spring boot를 한다면 설치할 필요없다.
+ -  그 외 Docker, Graphql 등
 
 ### Spring boot 참고사이트
 
-    https://start.spring.io
-    https://spring.io/projects/spring-boot
+ - [start.spring.io](https://start.spring.io)
+ - [start.spring.io](https://spring.io/projects/spring-boot)
 
