@@ -26,8 +26,6 @@
 
 ![4](https://user-images.githubusercontent.com/110442250/190061810-813c89c1-4e47-452f-9aa2-6f2dd645b832.jpg)
 
- # 고생하셨습니다!! 근데 이제 시작입니다 ^^
-
 ## 2. 속성파일(application.properties)에 DB 아이디,비밀번호 작성 
 
           properties 확장명을 yaml(야믈)로 수정
